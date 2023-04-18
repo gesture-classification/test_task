@@ -38,5 +38,7 @@ def get_all_sensors_plot(id, X_train, plot_counter=None):
     # if not os.path.exists("figures"):
     #     os.mkdir("figures")
 
-    if plot_counter:
-        fig.write_image(f'figures/fig_{plot_counter}.png', engine="kaleido")
+    if plot_counter is not None:
+        fig.write_image(f'../figures/fig_{plot_counter}.png', engine="kaleido")
+    else:
+        fig.update_layout(title=dict(text=f'Рис. 1 - сигналы датчиков <br> наблюдения ' + str(id), x=.5, y=0.08, xanchor='center'))
