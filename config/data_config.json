@@ -31,14 +31,14 @@
 
   "gestures": [
     "open", 
-    "сгиб мезинец",  
-    "сгиб безымянного пальца",
-    "сгиб среднего пальца",
-    "жест pistol",  
-    "сгиб указательного пальца",
-    "сгиб большого пальца",
-    "жест ok",
-    "жест grab" 
+    "little finger flex",  
+    "ring finger flex",
+    "middle finger flex",
+    "pistol gesture",  
+    "index finger flex",
+    "thumb flex",
+    "ok gesture",
+    "grab gesture" 
   ]
 
 }
